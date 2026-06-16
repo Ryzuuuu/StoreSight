@@ -1,0 +1,91 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ── Testing / type checking ─────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.ruff_cache/
+
+# ── Environment & secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── IDE / OS ──────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── ML models (auto-downloaded by ultralytics) ────────────────────────────────
+*.pt
+*.onnx
+*.weights
+runs/
+
+# ── CCTV footage (challenge license — do not redistribute) ────────────────────
+videos/*
+!videos/.gitkeep
+
+# ── Generated pipeline output ─────────────────────────────────────────────────
+events/*.jsonl
+events/*.json
+!events/.gitkeep
+
+# ── Local data inputs (not committed) ─────────────────────────────────────────
+data/
+pos_transactions.csv
+*.xlsx
+*.xls
+
+# ── Local databases & logs ────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+store_intelligence.db
+*.log
+logs/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Docker (local overrides) ──────────────────────────────────────────────────
+docker-compose.override.yml

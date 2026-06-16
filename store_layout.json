@@ -1,0 +1,140 @@
+{
+  "store_id": "STORE_BLR_002",
+  "store_name": "Brigade Road, Bangalore",
+  "cameras": [
+    {
+      "camera_id": "CAM_1",
+      "name": "Main Floor Back Wall",
+      "file": "CAM 1.mp4",
+      "is_entry_camera": false,
+      "is_backroom": false,
+      "clip_start_utc": "2026-04-10T14:40:27Z"
+    },
+    {
+      "camera_id": "CAM_2",
+      "name": "Main Floor Front Wall",
+      "file": "CAM 2.mp4",
+      "is_entry_camera": false,
+      "is_backroom": false,
+      "clip_start_utc": "2026-04-10T14:40:02Z"
+    },
+    {
+      "camera_id": "CAM_3",
+      "name": "Entry / Exit Threshold",
+      "file": "CAM 3.mp4",
+      "is_entry_camera": true,
+      "is_backroom": false,
+      "clip_start_utc": "2026-04-10T14:40:00Z"
+    },
+    {
+      "camera_id": "CAM_4",
+      "name": "Back Room",
+      "file": "CAM 4.mp4",
+      "is_entry_camera": false,
+      "is_backroom": true,
+      "clip_start_utc": "2026-04-10T14:39:45Z"
+    },
+    {
+      "camera_id": "CAM_5",
+      "name": "Billing Counter",
+      "file": "CAM 5.mp4",
+      "is_entry_camera": false,
+      "is_backroom": false,
+      "clip_start_utc": "2026-04-10T14:39:48Z"
+    }
+  ],
+  "zones": [
+    {
+      "zone_id": "SKINCARE_BACK",
+      "zone_name": "Skincare \u2014 Back Wall",
+      "type": "product_zone",
+      "camera_id": "CAM_1",
+      "x_min": 0,
+      "y_min": 0,
+      "x_max": 1570,
+      "y_max": 620,
+      "sku_zone": "SKINCARE"
+    },
+    {
+      "zone_id": "FRAGRANCE",
+      "zone_name": "Fragrance & Nail",
+      "type": "product_zone",
+      "camera_id": "CAM_1",
+      "x_min": 1380,
+      "y_min": 300,
+      "x_max": 1920,
+      "y_max": 950,
+      "sku_zone": "FRAGRANCE"
+    },
+    {
+      "zone_id": "FOH_BACK",
+      "zone_name": "Floor \u2014 Back",
+      "type": "floor",
+      "camera_id": "CAM_1",
+      "x_min": 0,
+      "y_min": 480,
+      "x_max": 1920,
+      "y_max": 1080,
+      "sku_zone": null
+    },
+    {
+      "zone_id": "MAKEUP",
+      "zone_name": "Makeup \u2014 Front Wall",
+      "type": "product_zone",
+      "camera_id": "CAM_2",
+      "x_min": 345,
+      "y_min": 0,
+      "x_max": 1920,
+      "y_max": 670,
+      "sku_zone": "MAKEUP"
+    },
+    {
+      "zone_id": "MAKEUP_ISLAND",
+      "zone_name": "Makeup Island Display",
+      "type": "product_zone",
+      "camera_id": "CAM_2",
+      "x_min": 0,
+      "y_min": 300,
+      "x_max": 614,
+      "y_max": 920,
+      "sku_zone": "MAKEUP"
+    },
+    {
+      "zone_id": "FOH_FRONT",
+      "zone_name": "Floor \u2014 Front",
+      "type": "floor",
+      "camera_id": "CAM_2",
+      "x_min": 0,
+      "y_min": 625,
+      "x_max": 1920,
+      "y_max": 1080,
+      "sku_zone": null
+    },
+    {
+      "zone_id": "BILLING",
+      "zone_name": "Billing / Cash Counter",
+      "type": "checkout",
+      "camera_id": "CAM_5",
+      "x_min": 0,
+      "y_min": 0,
+      "x_max": 845,
+      "y_max": 1080,
+      "sku_zone": null
+    },
+    {
+      "zone_id": "ACCESSORIES",
+      "zone_name": "Accessories Display",
+      "type": "product_zone",
+      "camera_id": "CAM_5",
+      "x_min": 845,
+      "y_min": 0,
+      "x_max": 1920,
+      "y_max": 1080,
+      "sku_zone": "ACCESSORIES"
+    }
+  ],
+  "open_hours": {
+    "open": "10:00",
+    "close": "21:30"
+  }
+}
